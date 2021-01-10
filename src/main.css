@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+ 
+}
+
+body {
+  background-color:  #282828;
+  font-family: 'MOntserrat', sans-serif;
+  color: white;
+}
+
+.container {
+  width: 555px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+labael{
+  font-size: 16px;
+  font-family: 'Montserrat Semibold', sans-serif;
+  margin-bottom: 10px;
+}
+
+button {
+  background-image: linear-gradient(-90deg, #FF7373 0%, #FDDB33 100%);
+  border-radius: 5px;
+  border: 0;
+  height: 45px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Montserrat Bold', sans-serif;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+input {
+  background: #1A1A1A;
+  width: 100%;
+  height: 45px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 14px;
+  padding: 0 15px;  
+  outline: none;
+  transition: border-color 0.2s ease-in;
+
+}
+input:focus {
+  border-color: #FF7373;
+}
+
+h1 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 30px;
+  text-align: center;
+  
+}
+ .gatinho {
+
+  padding-top: 20px;
+  width: 555px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-height: 400px;
+} 
+
