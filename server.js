@@ -9,4 +9,4 @@ app.get('/', function(req, res) {
   res.render('./src/index')
 })
 
-app.listen(3000);
+app.port = process.env.PORT || 80
