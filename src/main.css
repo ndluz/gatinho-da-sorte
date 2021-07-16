@@ -8,7 +8,6 @@ html {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
- 
 }
 
 body {
@@ -55,9 +54,7 @@ input {
   transition: border-color 0.2s ease-in;
 
 }
-input:focus {
-  border-color: #FF7373;
-}
+
 
 h1 {
   padding-top: 40px;
@@ -66,13 +63,18 @@ h1 {
   text-align: center;
   
 }
- .gatinho {
-
-  padding-top: 20px;
-  width: 555px;
-  margin: 0 auto;
+ .gatinho img{
   display: flex;
-  flex-direction: column;
+  padding-top: 20px;
+  max-width: 555px;
   max-height: 400px;
+  margin: 0 auto;
 } 
 
+@media (max-width: 670px){
+  .container , .img{
+    width: 80%;
+    margin: 0 auto;
+
+  }
+}
