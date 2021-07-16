@@ -7,6 +7,7 @@
 
 Eu tive a idéia desse projeto enquanto estva procurando estudar sobre como consumir APIs,
 encontrei uma api de foto de gatos e tive a idéia de fazer algo parecido como biscoito da sorte <strong> só que com gatinhos </strong>
+
 ---
 <br>
 
